@@ -1,0 +1,15 @@
+.comman-Footer{
+    background-color: black;
+    color:white;
+    opacity: 0.6;
+    padding: 2em 1em 0 1em ;
+    text-align: center;
+}
+hr{
+    background-color: red;
+    
+}
+p{
+    text-align: center;
+    padding: 0 0 1em 0;
+}

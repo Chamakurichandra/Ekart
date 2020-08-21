@@ -1,0 +1,27 @@
+.rating{
+    background-color: green;
+    color: white;
+    padding: 0  0.3em;
+    border-radius: 10%;
+}
+.same-all{
+    margin: 3em;
+    margin-bottom: 0%;
+}
+.cart{
+    color: white;
+    padding: 0.6em 3em;
+  margin: 4em 2em;
+}
+.product-details{
+   float: left;
+   padding: 0 0 0 1em;
+}
+.emi{
+    float: left;
+}
+.strike{
+    text-decoration: line-through;
+    margin:  1em;
+    
+}

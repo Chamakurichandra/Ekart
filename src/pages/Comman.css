@@ -1,0 +1,12 @@
+p{
+    
+    float: left;
+}
+ol li{
+    padding: 0 1em;
+}
+.brand{
+    float: left;
+    padding: 0 1em;
+    margin: 0 1em ;
+}

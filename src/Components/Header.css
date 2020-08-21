@@ -1,0 +1,50 @@
+.header-logo{
+    width: 5em;
+    border-radius: 50%;
+    
+    
+}
+.container1{
+    background-color: sandybrown;
+    text-align: center;
+    padding: 0.5em 0;
+    position:sticky;
+    z-index: 50 !important;
+    top: 0%;
+    
+}
+.header-title{
+    font-size: 2em;
+    padding: 0.3em 0 0  0;
+    margin: 0%;
+    color: white;
+}
+.header-inputbox{
+    padding: 0.3em 4em;
+    margin-top: 1em;
+    border-right: none;
+    border: none;
+    border-radius:5px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+}
+#login-button{
+    padding: 0.2em;
+    margin-top:1.2em;
+}
+#cart{
+    color: white;
+    margin-top: 2em;
+}
+.fa-search{
+    background-color:white;
+    padding: 0.6em 0.6em  0.5em 0.6em;
+    border-left: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+}
+.choose{
+    text-align: center;
+    padding: 1em;
+};
