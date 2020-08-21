@@ -1,13 +1,12 @@
 ul li{
     display: inline-block !important ;
     text-align: center !important;
-    padding: 0 3em;
+    padding: 0.5em 3em 0 3em;
 }
 .nav{
- 
     background-color:gainsboro;
     width: 100%;
-    position:static;
+    position:relative;
     z-index:10 !important;
 }
 a{
