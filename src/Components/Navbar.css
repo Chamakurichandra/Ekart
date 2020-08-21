@@ -7,7 +7,7 @@ ul li{
  
     background-color:gainsboro;
     width: 100%;
-    position:relative;
+    position:static;
     z-index:10 !important;
 }
 a{
