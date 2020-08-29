@@ -1,7 +1,7 @@
 ul li{
     display: inline-block !important ;
     text-align: center !important;
-    padding: 0.5em 3em 0 3em;
+    padding: 0.5em 3em 0 4em;
 }
 .nav{
     background-color:gainsboro;
