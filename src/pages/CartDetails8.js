@@ -11,16 +11,25 @@ export default class CartDetails8 extends React.Component{
         }
     }
     Remove=()=>{
-        this.setState({
-            data:this.state.data-1,
-            price:this.state.price-1800
-        })
+        if(this.state.data===1){
+            this.setState({
+                data:this.state.data,
+                price:this.state.price
+            })
+        }else{
+            this.setState({
+                data:this.state.data-1,
+                price:this.state.price-1800
+            })
+        }
         };
      Add=()=>{
-        this.setState({
-            data:this.state.data+1,
-            price:this.state.price+1800
-        })
+         if(this.state.data<=4){
+            this.setState({
+                data:this.state.data+1,
+                price:this.state.price+1800
+            })
+         }
         };
     Order=()=>{
         window.confirm("Your Order is placing");

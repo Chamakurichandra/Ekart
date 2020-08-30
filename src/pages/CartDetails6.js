@@ -11,16 +11,25 @@ export default class CartDetails6 extends React.Component{
         }
     }
     Remove=()=>{
+        if(this.state.data===1){
+            this.setState({
+                data:this.state.data,
+                price:this.state.price
+            }) 
+        }else{
         this.setState({
             data:this.state.data-1,
             price:this.state.price-9900
         })
+    }
         };
      Add=()=>{
+         if(this.state.data<=4){
         this.setState({
             data:this.state.data+1,
             price:this.state.price+9900
         })
+    }
         };
    
     Order=()=>{

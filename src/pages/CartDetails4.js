@@ -11,16 +11,25 @@ export default class CartDetails4 extends React.Component{
         }
     }
     Remove=()=>{
+        if(this.state.data===1){
+            this.setState({
+                data:this.state.data,
+                price:this.state.price
+            })   
+        }else{
         this.setState({
             data:this.state.data-1,
             price:this.state.price-45000
         })
+    }
         };
      Add=()=>{
+         if(this.state.data<=4){
         this.setState({
             data:this.state.data+1,
             price:this.state.price+45000
         })
+    }
         };
     Order=()=>{
         window.confirm("Your Order is placing");
