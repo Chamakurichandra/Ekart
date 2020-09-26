@@ -46,7 +46,7 @@ export default class CartDetails8 extends React.Component{
                     <h2>My Cart</h2>
                     </div>
                     <div className="col">
-                    <i className="fa fa-map-marker market"> <b>Delivery to</b></i>
+                    <i className="fa fa-map-marker market"> <b>Delivery to <textarea rows="5" style={{border:"none"}}></textarea></b></i>
                     </div>
                 </div>
             </div>
