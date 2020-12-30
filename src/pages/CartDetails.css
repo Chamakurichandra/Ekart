@@ -1,20 +1,16 @@
 .click1{
-    margin: 0.8em;
     border-radius: 50%;
     background-color: gainsboro;
     border: none ;
     color: black;
 }
 .click3{
-
-    margin:0 0.8em;
     border-radius: 50%;
     background-color: gainsboro;
     border: none ;
     color: black;
 }
 .click2{
-    padding: 0.3em 2em;
     background-color: gainsboro;
     border: none ;
     color: black;
