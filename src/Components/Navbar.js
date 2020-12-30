@@ -145,21 +145,6 @@ export default class Navbar extends React.Component{
                 </div>
             </div>
         </li>
-        <li>
-            
-            <div class="dropdown">
-                <a href="#"data-toggle="dropdown"><b>Music</b></a>
-                <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item"><h5>Music</h5></a>  
-                    <a href="#" class="dropdown-item">Music Instruments</a>
-                    <a href="#" class="dropdown-item">Movies&TV Shows</a>
-                    <a href="#" class="dropdown-item"><h5>Games</h5></a>
-                    <a href="#" class="dropdown-item">Gaming Accessories</a>
-                    <a href="#" class="dropdown-item">Gaming Consoles</a>
-                    <a href="#" class="dropdown-item">PS4 Games</a>
-                </div>
-            </div>
-        </li>
     </ul>
 </div>
             </div>
